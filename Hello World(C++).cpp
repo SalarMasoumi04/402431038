@@ -1,8 +1,7 @@
-#include<iostream>
+#include <iostream>
+using namespace std;
 
-class Account{
-    public:
-    Account(char st1){
-        std::cout<< "This is first class : " << st1;
-    }
-};
+int main(){
+    cout << "Hello World!";
+return 0;
+}
