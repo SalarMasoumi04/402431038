@@ -2,6 +2,7 @@
 #include<math.h>
 using namespace std;
 
+//Process & Calculate the Determinant of Matrix 
 int determinant(int matrix[10][10], int n) {
     int det = 0;
     int submatrix[10][10];
@@ -25,6 +26,8 @@ int determinant(int matrix[10][10], int n) {
     }
     return det;
 }
+
+//Specify the Current Matrix and calculte the Determinant
 int main() {
     int n, i, j;
     int matrix[10][10];
