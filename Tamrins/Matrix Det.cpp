@@ -3,9 +3,9 @@
 using namespace std;
 
 //Process & Calculate the Determinant of Matrix 
-int determinant(int matrix[10][10], int n) {
+int determinant(int matrix[3][3], int n) {
     int det = 0;
-    int submatrix[10][10];
+    int submatrix[3][3];
     if (n == 2)
         return ((matrix[0][0] * matrix[1][1]) - (matrix[1][0] * matrix[0][1]));
     else {
@@ -27,10 +27,10 @@ int determinant(int matrix[10][10], int n) {
     return det;
 }
 
-//Specify the Current Matrix and calculte the Determinant
+//Specify the Current Matrix and Calculate the Determinant
 int main() {
     int n, i, j;
-    int matrix[10][10];
+    int matrix[3][3];
     cout << "Enter the size of the matrix:\n";
     cin >> n;
     cout << "Enter the elements of the matrix:\n";
