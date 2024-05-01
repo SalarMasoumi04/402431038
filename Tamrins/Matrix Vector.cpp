@@ -29,7 +29,7 @@ int main() {
     }
     
     // Print the result
-    cout << "Resulting vector after matrix-vector multiplication:" << endl;
+    cout << "The multiplication of Matrix & Vector: ";
     for (int i = 0; i < 3; i++) {
         cout << result[i] << " ";
     }
