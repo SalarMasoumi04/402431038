@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-    // Define a 3x3 matrix and initialize it with user input
-    cout << "Enter the values for a 3x3 matrix:" << endl;
+    // Get the value of the matrix from user
+    cout << "Enter the values of a 3*3 matrix:" << endl;
     vector<vector<int>> matrix(3, vector<int>(3));
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -13,8 +13,8 @@ int main() {
         }
     }
     
-    // Define a three-dimensional vector and initialize it with user input
-    cout << "Enter the values for a three-dimensional vector:" << endl;
+    // Get the 3D vector from user
+    cout << "Enter the values of a 3D vector:" << endl;
     vector<int> inputVector(3);
     for (int i = 0; i < 3; i++) {
         cin >> inputVector[i];
@@ -28,7 +28,7 @@ int main() {
         }
     }
     
-    // Print the result
+    // Print the final result
     cout << "The multiplication of Matrix & Vector: ";
     for (int i = 0; i < 3; i++) {
         cout << result[i] << " ";
