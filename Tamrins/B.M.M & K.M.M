@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
     cout << "\n\nWelcome to Studytonight :-)\n\n\n";
     cout << " =====  Program to find the GCD and LCM of two numbers ===== \n\n";
 
